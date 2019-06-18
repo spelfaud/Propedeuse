@@ -1,2 +1,2 @@
 ## Opmerking
-Het kan tot twee minuten duren alvorens de applicatie beschikbaar is!
+Voor het gebruik van deze applicatie is een Git Repository nodig!

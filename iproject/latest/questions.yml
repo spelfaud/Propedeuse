@@ -6,6 +6,6 @@ questions:
 - variable: repository
   required: true
   default: ""
-  description: "blaaaaa"
+  description: "Geef de locatie van de Git Repository op."
   type: string
-  label: Repository website
+  label: Git Repository

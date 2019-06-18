@@ -1,7 +1,7 @@
 name: iproject-ontwikkelomgeving
 version: 1.0.0
 appVersion: 5.7.14
-description: Een complete webserver voor het gebruik tijdens het I-Project. De webserver beschikt over een MySQL database server, PHPMyAdmin, PHP en een Apache webserver. Studenten kunnen middels SFTP hun webbestanden uitwisselen. 
+description: Een complete webserver voor het gebruik tijdens het I-Project. De webserver beschikt over een MySQL database server, PHPMyAdmin, PHP en een Apache webserver. De applicatie kopieert de applicatiedata uit een opgegeven Git Repository. 
 keywords:
 - iproject
 - propedeuse
