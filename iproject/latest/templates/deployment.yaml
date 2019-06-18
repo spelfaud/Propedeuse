@@ -14,7 +14,7 @@ spec:
         image: ybonga/githubapache:latest
         env:
           - name: REPO_URL
-            value: https://github.com/dreamitcloud/hanapplicatie.git
+            value: {{ .Values.repository }}
         ports:
         - name: iproject
           containerPort: 80
