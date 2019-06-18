@@ -3,24 +3,9 @@ categories:
 - Database
 questions:
 
-- variable: service.nodePort
+- variable: repository
+  required: true
   default: ""
-  description: "Om jouw applicatie te bereiken is een uniek poortnummer nodig. Kies een poortnummer tussen 30000-32767."
-  type: int
-  min: 30000
-  max: 32767
-  label: Poortnummer website
-
-- variable: servicessh.nodePort
-  default: ""
-  description: "Om via SFTP webbestanden te uploaden is een uniek poortnummer nodig. Kies een poortnummer tussen 30000-32767."
-  type: int
-  min: 30000
-  max: 32767
-  label: Poortnummer SFTP
-
-- variable: password.command
-  default: ""
-  description: "Geef een wachtwoord op voor SFTP"
+  description: "blaaaaa"
   type: string
-  label: Wachtwoord SFTP
+  label: Repository website

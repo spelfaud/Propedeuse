@@ -11,9 +11,10 @@ spec:
     spec:
       containers:
       - name: iproject
-        image: dreamithan/iproject:latest
+        image: ybonga/githubapache:latest
+        env:
+          - name: REPO_URL
+            value: .Values.repository
         ports:
         - name: iproject
           containerPort: 80
-        - name: iproject
-          containerPort: 22
